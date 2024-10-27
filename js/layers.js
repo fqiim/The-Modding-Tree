@@ -26,3 +26,11 @@ addLayer("p", {
     ],
     layerShown(){return true}
 })
+addLayer("o", {    upgrades: {
+
+    },        11: {    title: "Make this whatever you want!",
+    description: "Double your point gain.",
+    cost: new Decimal(1),
+
+        },
+	       if (hasUpgrade('p', 11)) gain = gain.times(2)
